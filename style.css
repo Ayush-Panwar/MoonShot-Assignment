@@ -125,13 +125,16 @@ h1 {
 
 .btn:hover {
   background: #e2e8f0;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
 .live {
   background-color: #e54065;
   color: #fff;
   font-weight: bold;
+}
+.live:hover {
+  background-color: #e54065;
 }
 
 @media (max-width: 640px) {
