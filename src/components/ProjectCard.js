@@ -13,8 +13,8 @@ export function createProjectCard(project) {
         </ul>
       </div>
       <div class="project-links">
-        <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
-        <a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+        <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="btn live">Live Demo</a>
+        <a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="btn live">GitHub</a>
       </div>
     </div>
   `;
