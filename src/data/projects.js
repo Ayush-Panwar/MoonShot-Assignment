@@ -23,7 +23,7 @@ export const projects = [
     description:
       "Analytics Dashboard includes interactive data visualization charts, advanced filtering options, and efficient cookie management for user preferences.",
     features: [
-      "Has 3 filters: Age (15-25, >25), Age (male, female),date range selector ",
+      "Has 3 filters: Age (15-25, >25), Gender (male, female),date range selector ",
       "Google Sheets API Integration layer and Data Pipeline",
       "Zoom-in, zoom-out options on time range",
       "Cookie Management",
