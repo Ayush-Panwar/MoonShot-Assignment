@@ -7,14 +7,22 @@ export function createProjectCard(project) {
       <div class="features-list">
         <h3>Key Features:</h3>
         <ul>
-          ${project.features.map(feature => `
+          ${project.features
+            .map(
+              (feature) => `
             <li>${feature}</li>
-          `).join('')}
+          `
+            )
+            .join("")}
         </ul>
       </div>
       <div class="project-links">
-        <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="btn live">Live Demo</a>
-        <a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="btn live">GitHub</a>
+        <a href="${
+          project.liveUrl
+        }" target="_blank" rel="noopener noreferrer" class="btn live">Live Demo</a>
+        <a href="${
+          project.githubUrl
+        }" target="_blank" rel="noopener noreferrer" class="btn ">GitHub</a>
       </div>
     </div>
   `;
